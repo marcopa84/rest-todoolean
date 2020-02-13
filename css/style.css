@@ -19,4 +19,16 @@
 .todo_text{
 }
 .todo_command{
+  color: blue;
+  cursor: pointer;
+}
+
+.general_command{
+  width: 50%;
+  border: 1px solid lime;
+  padding: 20px;
+  margin: 5px 0;
+
+  display: flex;
+  justify-content: space-around;
 }
