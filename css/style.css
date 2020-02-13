@@ -3,3 +3,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.todo_list{
+  width: 100%;
+  padding: 20px;
+  border: 1px solid red;
+}
+.todo_ithem{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 5px 0;
+  border: 1px solid blue;
+}
+.todo_text{
+}
+.todo_command{
+}

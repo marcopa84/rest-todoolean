@@ -6,10 +6,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.3/handlebars.min.js" integrity="sha256-/PJBs6QWvXijOFIX04kZpLb6ZtSQckdOIavLWKKOgXU=" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
 </head>
 <body>
+  <ol class="todo_list">
+
+
+
+  </ol>
+  <script id="todo-template" type="text/x-handlebars-template">
+  <li class="todo_ithem" data_id="{{id}}">
+    <div class="todo_text">{{text}}</div>
+    <div class="todo_command"><i class="far fa-window-close"></i></div>
+  </li>
+</script>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
