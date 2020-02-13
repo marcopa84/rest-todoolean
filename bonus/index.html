@@ -28,7 +28,13 @@
       <i class="far fa-window-close"></i>
     </div>
   </li>
-</script>
+  </script>
+  <script id="todo-update-template" type="text/x-handlebars-template">
+    <div class="modal_window">
+      <input type="text" value="{{text}}" id="update_input" data_id="{{id}}">
+      <button type="button" name="button" id="update_button">Aggiorna!</button>
+    </div>
+  </script>
   <script src="js/script.js" charset="utf-8"></script>
 </body>
 </html>
